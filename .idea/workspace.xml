@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b66dc891-249a-4ff2-acc8-bebd2353e442" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XcKdCQKIgjvfNfmEjehV9ltacE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/loadcoder-examples (1)/loadcoder-examples/rest-loadtest/standalone-loadtest" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RunManager" selected="JUnit.WebshopTest.As_a_user_I_want_my_personal_data_saved_for_the_next_time_I_need_to_buy_something_so_I_dont_have_to_reenter_them__or_it_come_up_automatically">
+    <configuration name="WebshopTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.WebshopTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebshopTest.As_a_user_I_want_my_personal_data_saved_for_the_next_time_I_need_to_buy_something_so_I_dont_have_to_reenter_them__or_it_come_up_automatically" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.WebshopTest" />
+      <option name="METHOD_NAME" value="As_a_user_I_want_my_personal_data_saved_for_the_next_time_I_need_to_buy_something_so_I_dont_have_to_reenter_them__or_it_come_up_automatically" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebshopTest.dianas_andra_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.WebshopTest" />
+      <option name="METHOD_NAME" value="dianas_andra_test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebshopTest.products_added_to_the_cart_should_be_kept_if_you_leave_the_page" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.WebshopTest" />
+      <option name="METHOD_NAME" value="products_added_to_the_cart_should_be_kept_if_you_leave_the_page" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebshopTest.to_be_able_to_come_up_with_options_when_using_the_search_box" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.WebshopTest" />
+      <option name="METHOD_NAME" value="to_be_able_to_come_up_with_options_when_using_the_search_box" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.WebshopTest.As_a_user_I_want_my_personal_data_saved_for_the_next_time_I_need_to_buy_something_so_I_dont_have_to_reenter_them__or_it_come_up_automatically" />
+        <item itemvalue="JUnit.WebshopTest.to_be_able_to_come_up_with_options_when_using_the_search_box" />
+        <item itemvalue="JUnit.WebshopTest.products_added_to_the_cart_should_be_kept_if_you_leave_the_page" />
+        <item itemvalue="JUnit.WebshopTest" />
+        <item itemvalue="JUnit.WebshopTest.dianas_andra_test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b66dc891-249a-4ff2-acc8-bebd2353e442" name="Default Changelist" comment="" />
+      <created>1581340027941</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581340027941</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="392" y="89" key="#Project_Structure" timestamp="1581882932656">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="89" key="#Project_Structure/0.0.1600.860@0.0.1600.860" timestamp="1581882932656" />
+    <state x="539" y="234" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582743239251">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="539" y="234" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860@0.0.1600.860" timestamp="1582743239251" />
+    <state x="296" y="137" width="1086" height="673" key="#xdebugger.evaluate" timestamp="1582751282539">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="296" y="137" width="1086" height="673" key="#xdebugger.evaluate/0.0.1600.860@0.0.1600.860" timestamp="1582751282539" />
+    <state x="580" y="186" key="FileChooserDialogImpl" timestamp="1582741415600">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="580" y="186" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1582741415600" />
+    <state width="1557" height="2" key="GridCell.Tab.0.bottom" timestamp="1583241685265">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="2" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1583241685265" />
+    <state width="1557" height="2" key="GridCell.Tab.0.center" timestamp="1583241685264">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="2" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1583241685264" />
+    <state width="1557" height="2" key="GridCell.Tab.0.left" timestamp="1583241685264">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="2" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1583241685264" />
+    <state width="1557" height="2" key="GridCell.Tab.0.right" timestamp="1583241685265">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="2" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1583241685265" />
+    <state width="1557" height="373" key="GridCell.Tab.1.bottom" timestamp="1582755079013">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="373" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1582755079013" />
+    <state width="1557" height="373" key="GridCell.Tab.1.center" timestamp="1582755079013">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="373" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1582755079013" />
+    <state width="1557" height="373" key="GridCell.Tab.1.left" timestamp="1582755079013">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="373" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1582755079013" />
+    <state width="1557" height="373" key="GridCell.Tab.1.right" timestamp="1582755079013">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="373" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1582755079013" />
+    <state x="496" y="255" key="com.intellij.ide.util.TipDialog" timestamp="1584450901836">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="496" y="255" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1584450901836" />
+    <state x="182" y="133" key="new project wizard" timestamp="1582109062255">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="182" y="133" key="new project wizard/0.0.1600.860@0.0.1600.860" timestamp="1582109062255" />
+    <state x="141" y="199" key="run.anything.popup" timestamp="1582753663759">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="141" y="199" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1582753663759" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1582755215851">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1582755215851" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/example/WebshopTest.java</url>
+          <line>90</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

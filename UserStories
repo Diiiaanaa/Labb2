@@ -1,0 +1,94 @@
+package org.example;
+
+import org.junit.Assert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeDriverService;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.util.List;
+
+public class Main {
+
+
+
+    public static void main(String[] args) throws InterruptedException {
+        // write your code here
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\diana\\workspace\\testautomation\\SeleniumMaven\\chromedriver.exe");
+
+        DesiredCapabilities capabilities = DesiredCapabilities.chrome();
+        capabilities.setCapability("network.proxy.http", "93.180.7.246");
+        capabilities.setCapability("network.proxy.http_port", "8080");
+        ChromeDriverService service =
+                new ChromeDriverService.Builder().withWhitelistedIps("").withVerbose(true).build();
+        WebDriver driver = new ChromeDriver(service, capabilities);
+
+        // UserStorie 2 :
+        // As a user, I want to be able to come up with options when using the search box
+
+        // Go to the webshop
+        driver.get("http://demo.prestashop.com/");
+        WebDriverWait wait = new WebDriverWait(driver, 30);
+        //driver.findElement(By.cssSelector("alt=\"Hummingbird printed t-shirt\"")).click();
+        //driver.findElement(By.xpath("alt=\"Hummingbird printed t-shirt\"")).click();
+        driver.findElement(By.linkText("alt=\\\"Hummingbird printed t-shirt\\")).click();
+
+       // function myFunction() {
+            //driver.getElementById("alt=\"Hummingbird printed t-shirt\"").click(); // Click on the checkbox
+           // }
+
+        driver.findElement(By.id("alt=\"Hummingbird printed t-shirt\"")).click();
+        //To wait for element visible
+
+        // Wait for the page to load
+        //WebDriverWait wait = new WebDriverWait(driver, timeOutInSeconds 30);
+       // Thread.sleep(3000);
+
+        // Since the actual webshop is within an iframe, we need to switch to that one
+        driver.switchTo().frame("framelive");
+
+        // Find all featured products
+        //List<WebElement> featuredProducts = driver.findElements(By.cssSelector(".featured-products .js-product-miniature"));
+        //driver.findElement(By.xpath("//a[contains(text(),'Hummingbird printed t-shirt')]")).click();
+        driver.findElement(By.xpath("//a[contains(text(),'Hummingbird printed t-shirt')]")).click();
+
+        // Click at the first featured product
+       //featuredProducts.get(0).click();
+
+        // Wait for the page to load
+        wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.className("cart-products-count"))));
+
+        //Thread.sleep(1000);
+
+
+        // Assert that the cart has no products
+        Assert.assertEquals("(0)", driver.findElement(By.className("cart-products-count")).getText());
+
+        // Click on button "Add to cart" to add the current product
+        driver.findElement(By.className("add-to-cart")).click();
+
+        //wait.until(ExpectedConditions.visibilityOf(driver.getWindowHandle(By.className("hidden-sm-down")).getBytes());
+
+        Thread.sleep(1000);
+
+
+        // Close the modal
+        driver.findElement(By.cssSelector(".modal-header button.close")).click();
+
+        Thread.sleep(500);
+
+
+        // Assert that the product was added to the cart
+        Assert.assertEquals("(1)", driver.findElement(By.className("cart-products-count")).getText());
+
+
+
+        driver.quit();
+
+
+    }
+}
